@@ -1,0 +1,34 @@
+.navbutton {
+    background-color: rgb(50, 185, 86);
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    /* margin-left: 19px; */
+    /* box-sizing: border-box; */
+    display: inline-block;
+    position: relative;
+}
+
+
+/* This turns the drop down off when it is not used */
+.dropdown-box {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    margin-left: -30px;
+}
+
+/* This turns the dropdown on when it is hovered */
+.navbutton:hover .dropdown-box {
+    display: block;
+}
+
+.dropdown-box .navbutton {
+    background-color: aqua;
+}
+
+.dropdown-box .navbutton:hover {
+    /* color: rgb(255, 255, 255); */
+    background-color: rgb(20, 80, 163);
+    transition-duration: 1s;
+}
