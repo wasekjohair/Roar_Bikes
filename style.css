@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url(images/image-lion-background.png);
+    background-image: url(image-lion-background.png);
     background-position: top center;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
@@ -48,7 +48,7 @@ main {
     min-height: 250px;
     width: 30%;
     background-position: bottom;
-    background-image: url(images/image-background-card1.jpg);
+    background-image: url(image-background-card1.jpg);
     background-size: cover;
 }
 
@@ -65,7 +65,7 @@ main {
     min-height: 250px;
     width: 30%;
     background-position: bottom;
-    background-image: url(images/image-background-card3.jpg);
+    background-image: url(image-background-card3.jpg);
     background-size: cover;
 }
 
